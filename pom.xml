@@ -224,7 +224,7 @@
                     <groupId>com.spotify</groupId>
                     <artifactId>docker-maven-plugin</artifactId>
                     <version>${docker.maven.plugin.version}</version>
-                    <!--executions.execution.phase:此处配置了在maven打包应用时构建docker镜像；如果注释executions段表示不生成镜像 -->
+                    <!--executions.execution.phase:此处配置了在maven打包应用时构建docker镜像；如果注释executions段表示不生成镜像  -->
                     <executions>
                         <execution>
                             <id>build-image</id>
